@@ -3,9 +3,9 @@ python:
   - "3.6"
 notifications:
   slack: ibm-research:bLcRT4dofYlBUocjPBvlxO9p
-  email: nayan.rande2010m@gmail.com
+  email: 
     recipients:
-    - tidhamecha@in.ibm.com
+    - nayan.rande2010m@gmail.com
     on_success: always
     on_failure: always
 
