@@ -3,7 +3,7 @@ python:
   - "3.6"
 notifications:
   slack: ibm-research:bLcRT4dofYlBUocjPBvlxO9p
-  email: 
+  email: nayan.rande2010m@gmail.com
     recipients:
     - tidhamecha@in.ibm.com
     on_success: always
@@ -20,9 +20,9 @@ deploy:
 - provider: cloudfoundry
   username: apikey
   password: $apikey
-  api: https://api.ng.bluemix.net
-  organization: tidhamecha
-  space: here
+  api: https://api.eu-gb.bluemix.net
+  organization: nayan.rande2010m@gmail.com
+  space: dev
   manifest: manifest.yml
   on:
     branch: develop
